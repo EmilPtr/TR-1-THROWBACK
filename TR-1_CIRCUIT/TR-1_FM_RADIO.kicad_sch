@@ -927,6 +927,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 93.98) (xy 90.17 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4922c8aa-978e-4630-801b-40a6da21d978")
+	)
+	(wire
+		(pts
 			(xy 85.09 91.44) (xy 102.87 91.44)
 		)
 		(stroke
@@ -944,6 +954,16 @@
 			(type default)
 		)
 		(uuid "61b465de-c95b-443f-8350-cf88a7bfe5d1")
+	)
+	(wire
+		(pts
+			(xy 102.87 93.98) (xy 90.17 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5668d2-ac41-4b17-8d4a-b0a184d65bbf")
 	)
 	(wire
 		(pts
@@ -1064,6 +1084,16 @@
 			(type default)
 		)
 		(uuid "f81e24b6-6cda-4141-a018-71dffe71cdba")
+	)
+	(wire
+		(pts
+			(xy 90.17 49.53) (xy 53.34 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd4e8a13-1ffd-4326-807a-538ea232eb4e")
 	)
 	(symbol
 		(lib_id "power:VCC")
@@ -1354,7 +1384,7 @@
 	)
 	(sheet
 		(at 102.87 86.36)
-		(size 16.51 7.62)
+		(size 16.51 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1378,7 +1408,7 @@
 			)
 		)
 		(property "Sheetfile" "Radio_Audio.kicad_sch"
-			(at 102.87 94.5646 0)
+			(at 102.87 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1399,6 +1429,16 @@
 		(pin "RDA_SDA" input
 			(at 102.87 88.9 180)
 			(uuid "761a6095-3686-45f0-b53b-f76d830f97c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "V_AMP" input
+			(at 102.87 93.98 180)
+			(uuid "ae76bffc-2b2d-492e-a9d9-e3b51f919ec9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,7 +1518,7 @@
 	)
 	(sheet
 		(at 36.83 41.91)
-		(size 16.51 7.62)
+		(size 16.51 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1502,7 +1542,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Stage.kicad_sch"
-			(at 36.83 50.1146 0)
+			(at 36.83 52.6546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,6 +1563,16 @@
 		(pin "V_OUT" input
 			(at 53.34 46.99 0)
 			(uuid "b8338271-9866-45fc-b43f-ac1f17f4b81f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V_AMP" input
+			(at 53.34 49.53 0)
+			(uuid "6f619bb9-4db6-4e8a-893c-fe30370edaff")
 			(effects
 				(font
 					(size 1.27 1.27)

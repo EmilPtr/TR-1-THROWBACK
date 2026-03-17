@@ -1018,6 +1018,167 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1513,16 +1674,22 @@
 		)
 	)
 	(junction
+		(at 161.29 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09b7842c-fde0-4170-87a9-2304981a1b84")
+	)
+	(junction
 		(at 161.29 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b2f9ae8-33a1-4bdc-89ab-cbd78eeca2ce")
 	)
 	(junction
-		(at 161.29 104.14)
+		(at 106.68 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c27c0b8b-f82b-422a-bfa1-317925cc4622")
+		(uuid "92ecd503-4eb1-47b7-a770-c09ba5d94c56")
 	)
 	(no_connect
 		(at 109.22 86.36)
@@ -1558,6 +1725,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 104.14) (xy 161.29 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c4088ef-88d7-4f22-bcc1-b3bf9acfcaf6")
+	)
+	(wire
+		(pts
 			(xy 143.51 86.36) (xy 151.13 86.36)
 		)
 		(stroke
@@ -1575,6 +1752,16 @@
 			(type default)
 		)
 		(uuid "1711aa7e-019a-4775-ad05-4bcc8d4d7bcf")
+	)
+	(wire
+		(pts
+			(xy 161.29 104.14) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19498aa2-4b2a-435d-b10e-6de1ee1e86ab")
 	)
 	(wire
 		(pts
@@ -1605,16 +1792,6 @@
 			(type default)
 		)
 		(uuid "20b6fe9a-e5ee-4a66-aaaf-de3d56a3004d")
-	)
-	(wire
-		(pts
-			(xy 161.29 104.14) (xy 163.83 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "222bcf17-ad14-4e3e-a9d2-3800ce235d2d")
 	)
 	(wire
 		(pts
@@ -1658,6 +1835,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 88.9) (xy 106.68 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2c751c4-850a-44ff-9cc3-c4600163d40f")
+	)
+	(wire
+		(pts
 			(xy 129.54 86.36) (xy 134.62 86.36)
 		)
 		(stroke
@@ -1688,6 +1875,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 88.9) (xy 109.22 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f07e47a4-56f4-465f-9b12-bf17672f9a8a")
+	)
+	(wire
+		(pts
 			(xy 143.51 83.82) (xy 143.51 86.36)
 		)
 		(stroke
@@ -1695,6 +1892,17 @@
 			(type default)
 		)
 		(uuid "fac2e814-9aec-49b5-8046-7f706dad521c")
+	)
+	(hierarchical_label "V_AMP"
+		(shape input)
+		(at 157.48 104.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b82d6cf-cbc8-409e-b89e-0e952d68a57d")
 	)
 	(hierarchical_label "RDA_SDA"
 		(shape input)
@@ -1983,72 +2191,6 @@
 			(project "TR-1_FM_RADIO"
 				(path "/3c940633-b16d-4808-9510-de2e642ee533/12d0ff2c-452a-415d-a360-6f59c0c994ca"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VCC")
-		(at 161.29 104.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14af16d0-87ca-4ce3-9144-8417b1b6e10c")
-		(property "Reference" "#PWR03"
-			(at 161.29 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VCC"
-			(at 161.29 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 161.29 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 161.29 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 161.29 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7817d900-fa9e-4bdd-97db-9d81f6a33c82")
-		)
-		(instances
-			(project "TR-1_FM_RADIO"
-				(path "/3c940633-b16d-4808-9510-de2e642ee533/12d0ff2c-452a-415d-a360-6f59c0c994ca"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2394,6 +2536,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b59836df-271f-4277-a5df-f3750d73fbe0")
+		(property "Reference" "#PWR020"
+			(at 106.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6236467-875a-4b36-863c-b079f14ba0d6")
+		)
+		(instances
+			(project "TR-1_FM_RADIO"
+				(path "/3c940633-b16d-4808-9510-de2e642ee533/12d0ff2c-452a-415d-a360-6f59c0c994ca"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 137.16 83.82 90)
 		(unit 1)
@@ -2529,7 +2737,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 109.22 88.9 90)
+		(at 102.87 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2538,7 +2746,7 @@
 		(fields_autoplaced yes)
 		(uuid "e168e580-b1e0-4437-8136-29f2ec088d0c")
 		(property "Reference" "#PWR011"
-			(at 113.03 88.9 0)
+			(at 106.68 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2547,7 +2755,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 105.41 88.8999 90)
+			(at 99.06 88.8999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2556,7 +2764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 88.9 0)
+			(at 102.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2565,7 +2773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 88.9 0)
+			(at 102.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2574,7 +2782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 109.22 88.9 0)
+			(at 102.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,6 +2875,75 @@
 			(project "TR-1_FM_RADIO"
 				(path "/3c940633-b16d-4808-9510-de2e642ee533/12d0ff2c-452a-415d-a360-6f59c0c994ca"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 106.68 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edf90a1e-532f-46b2-9395-cc5ae48ffc76")
+		(property "Reference" "C7"
+			(at 109.982 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47u"
+			(at 109.982 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.6452 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 106.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd41abf6-23a4-4603-a568-73a50fa7f619")
+		)
+		(pin "2"
+			(uuid "0543bb96-411d-47b6-a3e0-b0857d608560")
+		)
+		(instances
+			(project ""
+				(path "/3c940633-b16d-4808-9510-de2e642ee533/12d0ff2c-452a-415d-a360-6f59c0c994ca"
+					(reference "C7")
 					(unit 1)
 				)
 			)
