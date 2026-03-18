@@ -18,7 +18,13 @@ Uses potentiometers as a voltage divider to adjust values.
 Some indicator LEDs
 
 ## Casing
-TBA
+The case was made to mimic the Regency TR-1 to the best of my ability considering my 3D printing constraints, I think I did a solid job!!
+
+![case](./IMAGES/case.png)
+The case
+
+![case_exploded](./IMAGES/case_exploded.png)
+The case exploded to show the insides to an extent
 
 ## Building
 Still in the design review process, I plan to implement this using stripboard and a lot of modules instead of a PCB to cut down on development time because JLCPCB takes a millenia to deliver its boards.

@@ -877,6 +877,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 73.66) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12998b42-8378-4d38-a0ce-f38c90a616d1")
+	)
+	(wire
+		(pts
 			(xy 102.87 71.12) (xy 97.79 71.12)
 		)
 		(stroke
@@ -967,6 +977,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 73.66) (xy 100.33 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "814531a6-715a-469e-82e2-a71b652400f2")
+	)
+	(wire
+		(pts
 			(xy 95.25 78.74) (xy 95.25 68.58)
 		)
 		(stroke
@@ -1054,6 +1074,16 @@
 			(type default)
 		)
 		(uuid "dd117198-704e-43dc-8d74-11518fc7ee2d")
+	)
+	(wire
+		(pts
+			(xy 100.33 83.82) (xy 85.09 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de05ba87-17cd-44bf-8557-25f31cba5b5a")
 	)
 	(wire
 		(pts
@@ -1590,7 +1620,7 @@
 	)
 	(sheet
 		(at 102.87 66.04)
-		(size 16.51 7.62)
+		(size 20.32 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1614,7 +1644,7 @@
 			)
 		)
 		(property "Sheetfile" "Interface.kicad_sch"
-			(at 102.87 74.2446 0)
+			(at 102.87 76.7846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1622,7 +1652,7 @@
 				(justify left top)
 			)
 		)
-		(pin "STAT_POT" input
+		(pin "VOL_POT" input
 			(at 102.87 68.58 180)
 			(uuid "ceed063d-c24a-4abf-bf72-21d3e6714432")
 			(effects
@@ -1632,9 +1662,19 @@
 				(justify left)
 			)
 		)
-		(pin "VOL_POT" input
+		(pin "STAT_ENCODER_A" input
 			(at 102.87 71.12 180)
-			(uuid "1b71ebe1-ffa9-41c9-a3fa-710e1e613ae0")
+			(uuid "1dc69038-e5e9-431a-a43e-051debb87dd7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STAT_ENCODER_B" input
+			(at 102.87 73.66 180)
+			(uuid "f766578f-1b5d-41f1-8924-2dea337eb794")
 			(effects
 				(font
 					(size 1.27 1.27)
