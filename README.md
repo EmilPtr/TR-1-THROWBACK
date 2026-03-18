@@ -12,7 +12,7 @@ This is the power stage, it operates on 3xAA which provides 4.5V. The battery vo
 This is the radio and audio stage, to streamline development, the RDA5807M module is used to make FM radio as easy as possible. The audio jack is a switching TRS jack, meaning that if no headphones are plugged in, the audio signal will go the speakers instead of the headphones. The amplifier is a PAM8403 evaluation board from DFRobot.
 
 ![interface](./IMAGES/interface.png)
-Uses potentiometers as a voltage divider to adjust values.
+Uses potentiometers as a voltage divider to adjust volume, and uses a rotary quadrature encoder to adjust the station by tracking the number of pulses and their direction.
 
 ![indicators](./IMAGES/indicators.png)
 Some indicator LEDs
